@@ -1,0 +1,217 @@
+
+/*MGF: Controls Main Background of the entire site*/
+body {
+  background-color: rgba(0, 0, 0, 0.9);
+  margin: 0px;
+  font-family: sans-serif;
+  box-sizing: border-box;
+  
+}
+
+h1 {
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    box-sizing: border-box;
+}
+p {
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 20px;
+}
+
+/*MGF: Navigation Controls*/
+
+nav {
+    background-image: linear-gradient(DarkSlateBlue, MidnightBlue 50%, Black 100%);
+    padding: 10px 32px;
+    text-align: center;
+    margin: 0px;
+    font-family: sans-serif;
+    position: top;
+}
+
+.navButton {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    
+}
+
+.navButton:hover {
+    border: none;
+    color: white;
+    background-image: linear-gradient(DarkSlateBlue, MidnightBlue 50%, black 99%);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 25px;
+}
+
+/*MGF: Footer Controls*/
+footer {
+    background-image: linear-gradient(black, MidnightBlue 50%, DarkSlateBlue 99%);
+    padding: 10px 32px;
+    margin: 0px;
+    font-family: sans-serif;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
+/*MGF: Main Title on Homepage*/
+.mainTitle {
+    background-image: url('images/DSC02655.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    color: white;
+    padding-top: 370px;
+    padding-bottom: 30px;
+    padding-right: 0%;
+    padding-left: 0%;
+    text-align: center;
+    font-size: 70px;
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    box-sizing: border-box;
+}
+
+/*MGF: Controls "Our Mission" on the homepage*/
+.homeSubTitle{
+    font-family: sans-serif;
+    color: floralwhite;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    padding-right: 0%;
+    padding-left: 0%;
+    text-align: center;
+    font-size: 50px;
+    width: 50%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    font-weight: bold;
+    float: left;
+    
+}
+
+/*MGF: Mission Statement on the homepage*/
+.homeSubSub{
+    font-family: sans-serif;
+    color: floralwhite;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    padding-right: 50px;
+    padding-left: 50px;
+    text-align: center;
+    font-size: 30px;
+    width: 40%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 150px;
+    margin-left: 0px;
+    float: right;
+    box-sizing: border-box;
+}
+
+
+/*MGF: Controls Headers on resources page*/
+.resourcesSub {
+    text-align: left;
+    font-size: 30px;
+    color: white;
+    padding-left: 20px;
+    
+    
+}
+
+/*MGF: Controls links on resources page*/
+.resourcesLinks:link {
+    text-align: left;
+    font-size: 30px;
+    color: floralwhite;
+    padding-left: 30px;
+}
+
+.resourcesLinks:visited {
+    text-align: left;
+    font-size: 30px;
+    color: floralwhite;
+    padding-left: 30px;
+}
+
+.resourcesLinksBox {
+    text-align: left;
+    font-size: 30px;
+    padding-left: 30px;
+}
+
+
+/*MGF: Controls contact information*/
+.contactSub {
+    float: left;
+    width: 50%;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    padding-top: 175px;
+    
+}
+
+.contactInfo{
+    float: left;
+    width: 50%;
+    text-align: center;
+    font-size: 30px;
+    color: floralwhite;
+    /*padding-left: 150px;*/
+    padding-top: 20px;
+}
+
+/*MGF: Controls picture on contact page*/
+.contactPic{
+    float: right;
+    width: 25%;
+    padding-right: 200px;
+    padding-top: 50px;
+    position: center;
+    text-align: center;
+}
+
+/*MGF: Used when page is split*/
+.row {
+    padding-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  height: 100%;
+}
+
